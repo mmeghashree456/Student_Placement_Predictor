@@ -143,7 +143,7 @@ Placement Prediction
 Profile Analysis + Career Insights
 
 
-🛠️ Tech Stack
+```🛠️ Tech Stack```
 Programming Language
 Python
 Machine Learning
@@ -163,7 +163,7 @@ VS Code
 Git
 GitHub
 
-##📂 Dataset
+```📂 Dataset```
 
 The project uses a student placement dataset containing academic, technical and career-related attributes.
 
@@ -193,7 +193,7 @@ data/
 │
 └── processed/
 
-⚙️ How to Run Locally
+```⚙️ How to Run Locally```
 1. Clone the Repository
 git clone https://github.com/mmeghashree456/Student_Placement_Predictor.git
 2. Navigate to the Project
@@ -217,3 +217,7 @@ streamlit run app.py
 The application will open in your browser at:
 
 http://localhost:8501
+
+```⭐ Support```
+
+If you found this project useful or interesting, consider giving the repository a ⭐ on GitHub!
