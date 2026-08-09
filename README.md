@@ -108,3 +108,112 @@ Student_Placement_Predictor/
 ├── reports/
 │
 └── screenshots/
+
+Student Dataset
+      │
+      ▼
+Data Preprocessing
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Train Multiple ML Models
+      │
+      ├── Logistic Regression
+      ├── Random Forest
+      └── XGBoost
+      │
+      ▼
+Model Evaluation
+      │
+      ▼
+Best Model Selection
+      │
+      ▼
+Model Serialization
+      │
+      ▼
+Streamlit Application
+      │
+      ▼
+Placement Prediction
+      │
+      ▼
+Profile Analysis + Career Insights
+
+
+🛠️ Tech Stack
+Programming Language
+Python
+Machine Learning
+Scikit-learn
+XGBoost
+Pandas
+NumPy
+Data Visualization
+Matplotlib
+Seaborn
+Web Application
+Streamlit
+Model Persistence
+Joblib
+Development Tools
+VS Code
+Git
+GitHub
+
+##📂 Dataset
+
+The project uses a student placement dataset containing academic, technical and career-related attributes.
+
+Important Features
+Feature	Description
+Gender	Student gender
+Degree	Educational degree
+Branch	Engineering branch
+Age	Student age
+CGPA	Academic performance
+Backlogs	Number of academic backlogs
+Internships	Internship experience
+Projects	Number / level of projects
+Certifications	Relevant certifications
+Coding Skills	Programming / technical skill level
+Communication Skills	Communication ability
+Soft Skills Rating	Overall soft-skill rating
+Aptitude Test Score	Aptitude assessment score
+Placement	Placement outcome
+
+The dataset is divided into training and testing data.
+
+data/
+├── raw/
+│   ├── train.csv
+│   └── test.csv
+│
+└── processed/
+
+⚙️ How to Run Locally
+1. Clone the Repository
+git clone https://github.com/mmeghashree456/Student_Placement_Predictor.git
+2. Navigate to the Project
+cd Student_Placement_Predictor
+3. Create a Virtual Environment
+python -m venv venv
+4. Activate the Virtual Environment
+
+Windows:
+
+venv\Scripts\activate
+
+macOS / Linux:
+
+source venv/bin/activate
+5. Install Required Dependencies
+pip install -r requirements.txt
+6. Run the Streamlit Application
+streamlit run app.py
+
+The application will open in your browser at:
+
+http://localhost:8501
