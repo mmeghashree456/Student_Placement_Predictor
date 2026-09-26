@@ -2,7 +2,7 @@
 
 > An end-to-end Machine Learning platform that analyzes student academic performance, technical skills, projects, internships and other career-related factors to estimate placement outcomes.
 
-🌐 **Live Demo:** https://student-placement-predictor.streamlit.app/
+🌐 **Live Demo:** https://student-placementpredictor.streamlit.app/
 
 ---
 
