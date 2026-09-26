@@ -142,8 +142,9 @@ Placement Prediction
       ▼
 Profile Analysis + Career Insights
 
+```
 
-```🛠️ Tech Stack```
+# Tech Stack
 Programming Language
 Python
 Machine Learning
@@ -163,7 +164,7 @@ VS Code
 Git
 GitHub
 
-```📂 Dataset```
+## 📂 Dataset
 
 The project uses a student placement dataset containing academic, technical and career-related attributes.
 
@@ -185,15 +186,15 @@ Aptitude Test Score	Aptitude assessment score
 Placement	Placement outcome
 
 The dataset is divided into training and testing data.
-
+```text
 data/
 ├── raw/
 │   ├── train.csv
 │   └── test.csv
 │
 └── processed/
-
-```⚙️ How to Run Locally```
+```
+## ⚙️ How to Run Locally
 1. Clone the Repository
 git clone https://github.com/mmeghashree456/Student_Placement_Predictor.git
 2. Navigate to the Project
@@ -202,11 +203,11 @@ cd Student_Placement_Predictor
 python -m venv venv
 4. Activate the Virtual Environment
 
-Windows:
+### Windows:
 
 venv\Scripts\activate
 
-macOS / Linux:
+### macOS / Linux:
 
 source venv/bin/activate
 5. Install Required Dependencies
